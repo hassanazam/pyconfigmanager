@@ -9,7 +9,7 @@ setup(
   author = 'MHA',
   author_email = 'hassanazam@live.com',
   url = 'https://github.com/hassanazam/pyconfigmanager',
-  download_url = 'https://github.com/HassanAzam/pyconfigmanager/archive/0.0.1.tar.gz',
+  download_url = 'https://github.com/HassanAzam/pyconfigmanager/archive/v0.2.1-alpha.tar.gz',
   keywords = ['python config manager', 'config management', 'python config'],
   install_requires=[
   ],
