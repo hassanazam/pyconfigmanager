@@ -1,6 +1,6 @@
 import os
 
-from pyconfigmanager.src.config_manager import ConfigManager
+from pyconfigmanager.config_manager import ConfigManager
 
 
 class ConfigFactory:

@@ -8,7 +8,6 @@ Package Description:
     - Prefer readable format to define configurations in external config file
 """
 
-__version__ = 0.1
-
 # Exposed Classes
-from pyconfigmanager.src.config_manager_factory import ConfigFactory
+from pyconfigmanager.config_manager_factory import ConfigFactory
+
