@@ -73,10 +73,12 @@ In projects, it is often required to load configuration from external file (whic
 ### Sample project
 See https://github.com/HassanAzam/sample-pyconfigmanager
 
+<br/>
+
 #### Are you a developer? YES
 If you are interested in OpenSource Development, then your help is required :)
   ##### Roadmap
     - Write test cases (unit, integration and e2e)
     - Establish CI pipeline with automated tests, code formatting and much more ...
     - Enhancements
-    - *Create issue of what you want, we will implement it together ;)*
+    - Create issue of what you want, we will implement it together ;)
