@@ -39,6 +39,9 @@ In projects, it is often required to load configuration from external file (whic
    export CONFIG_PATH=/etc/config/myapp/
    export CONFIG_FILE_NAME=config_app.py
    ```
+   **NOTE: If you don't specify these environment variables, their default values will be used.**
+   <br/>
+   Default values : CONFIG_PATH=./ and CONFIG_FILE_NAME=config_development.py
    
 3. Now in your application (preferably somewhere at the entry point of your app). Use in following manner.
    ```
