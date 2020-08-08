@@ -36,7 +36,7 @@ In projects, it is often required to load configuration from external file (whic
    
    ```
    Save this file. (at /etc/config/myapp/config_app.py)
-
+<br/>
 2. Keep track of two things, your config file path and config file name.
    These are required by **pyconfigmanager**. We will pass them as ENV variable to our package.
    Set ENV variables.
@@ -47,7 +47,7 @@ In projects, it is often required to load configuration from external file (whic
    **NOTE: If you don't specify these environment variables, their default values will be used.**
    <br/>
    Default values : CONFIG_PATH=./ and CONFIG_FILE_NAME=config_development
-   
+<br/>
 3. Now in your application (preferably somewhere at the entry point of your app). Use in following manner.
    ```
    from pyconfigmanager import ConfigFactory
@@ -59,7 +59,7 @@ In projects, it is often required to load configuration from external file (whic
    
    config_manager = ConfigFactory.get_config_manager(required_classes_and_keys)
    ```
-
+<br/>
 4. Access your config variables
    ```
    config_manager.get("DATABASE_URL")
@@ -67,4 +67,15 @@ In projects, it is often required to load configuration from external file (whic
    config_manager.get("USER")
    config_manager.get("PASSWORD")
    ```
-   
+
+
+### Sample project
+See https://github.com/HassanAzam/sample-pyconfigmanager
+
+#### Are you a developer? YES
+If you are interested in OpenSource Development, then your help is required :)
+  ##### Roadmap
+    - Write test cases (unit, integration and e2e)
+    - Establish CI pipeline with automated tests, code formatting and much more ...
+    - Enhancements
+    - *Create issue of what you want, we will implement it together ;)*
