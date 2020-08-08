@@ -1,7 +1,9 @@
 # pyconfigmanager - a minimal python package
 *A simple python config manager to load configuration from external file.*
 
-### Description
+<br/>
+
+## Description
 In projects, it is often required to load configuration from external file (which is not the part of your VCS or codebase). Such configurations could be a database config or secret keys of third party services. Main benefits of loading configuration outside of your codebase : 
   - You can change/configure your app without releasing a build.
   - You can save passwords/secrets safely outside your codebase, so you don't have to push them to your VCS.
@@ -10,13 +12,16 @@ In projects, it is often required to load configuration from external file (whic
 - Provides a way to define your configurations in a more readable format by using the power of python syntax. This file will be loaded at runtime to your app as python module.
 - It keeps a watch for required config keys and it will raise error if they are not provided.
 
+<br/>
 
-### Installation
+## Installation
 *Prerequisites*: Python3+ and pip
 
 `pip install pyconfigmanager`
 
-### How to use
+<br/>
+
+## How to use
 
 1. Create external config file. (**config_app.py**)
    and put your configuration in following manner.
