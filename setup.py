@@ -3,13 +3,13 @@ from setuptools import setup
 setup(
   name = 'pyconfigmanager',
   packages = ['pyconfigmanager'],
-  version = 'v0.2.2-alpha',
+  version = 'v0.2.3-alpha',
   license='MIT',
   description = 'A simple config manager to load configuration file from outside of project',
   author = 'MHA',
   author_email = 'hassanazam@live.com',
   url = 'https://github.com/hassanazam/pyconfigmanager',
-  download_url = 'https://github.com/HassanAzam/pyconfigmanager/archive/v0.2.2-alpha.tar.gz',
+  download_url = 'https://github.com/HassanAzam/pyconfigmanager/archive/v0.2.3-alpha.tar.gz',
   keywords = ['python config manager', 'config management', 'python config'],
   install_requires=[
   ],
