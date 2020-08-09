@@ -75,6 +75,12 @@ See https://github.com/HassanAzam/sample-pyconfigmanager
 
 <br/>
 
+#### Contributors
+- [Hassan Azam](https://github.com/HassanAzam)
+- [Ali Zain](https://github.com/alizainprasla)
+
+<br/>
+
 #### Are you a developer? YES
 If you are interested in OpenSource Development, then your help is required :)
   ##### Roadmap
