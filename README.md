@@ -75,7 +75,7 @@ See https://github.com/HassanAzam/sample-pyconfigmanager
 
 <br/>
 
-#### Contributors
+## Contributors
 - [Hassan Azam](https://github.com/HassanAzam)
 - [Ali Zain](https://github.com/alizainprasla)
 
